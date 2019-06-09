@@ -1,6 +1,6 @@
 {
   "name": "jeffe-ytdl-discord",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A ytdl-core wrapper focused on efficiency for use in Discord music bots fork of Amish Shas ytdl-core-discord",
   "main": "index.js",
   "types": "./typings/index.d.ts",

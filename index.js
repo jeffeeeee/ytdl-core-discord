@@ -25,7 +25,7 @@ module.exports = function download(url, options = {}) {
 						'-reconnect', '1',
 						'-reconnect_streamed', '1',
 						'-reconnect_delay_max', '5',
-						'-i', format.url,
+						'-i', info.formats[0].url,
 						'-analyzeduration', '0',
 						'-loglevel', '0',
 						'-f', 's16le',
